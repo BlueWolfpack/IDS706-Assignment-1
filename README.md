@@ -1,5 +1,24 @@
 # IDS706-Assignment-1
-This provides a skeleton for python work to be used with github
+
+[![.github/workflows/test.yml](https://github.com/BlueWolfpack/IDS706-Assignment-1/actions/workflows/test.yml/badge.svg)](https://github.com/BlueWolfpack/IDS706-Assignment-1/actions/workflows/test.yml)
+
+This project asks for a name and prints a welcome message for the Data Engineering course.
+Additionally, his provides a skeleton for python work to be used with github
+
+## Setup
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+
+## Run tests
+python -m pytest
+
+## Example
+Enter your name when prompted:
+
+Ammy, welcome to the Data Engineering course.
+
+Notes from Laura:
 I was absent last Wednesday (Aug. 26)
     I wasn't able to work through this with the TAs
     But I did meet with TA Ammy Lin today (Sep. 1)
